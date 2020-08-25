@@ -1,0 +1,15 @@
+data:
+ - name: firstname
+   type: String
+   op: concat
+   fields: name,last,age,email,dd,sddsd
+   
+ - name: age
+   type: Integer
+   op: sum
+   fields: age
+   
+ - name: date
+   type: Integer
+   op: setHours
+   fields: age
